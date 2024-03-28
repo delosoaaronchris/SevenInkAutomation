@@ -14,6 +14,7 @@ namespace SevenInkAutomation.Pages
         [FindsBy(How = How.CssSelector, Using = "#ast-desktop-header > div.ast-main-header-wrap.main-header-bar-wrap > div > div > div > div.site-header-primary-section-left.site-header-section.ast-flex.site-header-section-left.logo-main > div.site-header-primary-section-left.site-header-section.ast-flex.site-header-section-left.logo-alt > div > span > a > img")]
         public IWebElement HomeLogo { get; set; }
 
+
         [FindsBy(How = How.Id, Using = "menu-item-3253")]
         public IWebElement AboutUs { get; set; }
 
